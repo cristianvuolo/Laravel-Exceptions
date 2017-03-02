@@ -48,6 +48,7 @@ class ExceptionsServiceProvider extends ServiceProvider
 
         if ($this->app instanceof LaravelApplication && $this->app->runningInConsole()) {
             $this->publishes([$source => config_path('exceptions.php')]);
+            $this->publishes([__DIR__ . '/../resources' => base_path('resources/views/vendor/laravelExceptions/')], 'views');
         } elseif ($this->app instanceof LumenApplication) {
             $this->app->configure('exceptions');
         }
@@ -78,7 +79,7 @@ class ExceptionsServiceProvider extends ServiceProvider
             $assets = function ($path) use ($generator) {
                 return $generator->asset($path);
             };
-            $path = __DIR__.'/../resources/error.html';
+            $path = resource_path('views/vendor/laravelExceptions/error.html');
 
             return new HtmlDisplayer($info, $assets, realpath($path));
         });
