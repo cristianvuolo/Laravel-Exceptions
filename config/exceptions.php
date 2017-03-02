@@ -26,9 +26,9 @@ return [
     */
 
     'transformers' => [
-        'GrahamCampbell\Exceptions\Transformers\AuthTransformer',
-        'GrahamCampbell\Exceptions\Transformers\CsrfTransformer',
-        'GrahamCampbell\Exceptions\Transformers\ModelTransformer',
+        'CristianVuolo\Exceptions\Transformers\AuthTransformer',
+        'CristianVuolo\Exceptions\Transformers\CsrfTransformer',
+        'CristianVuolo\Exceptions\Transformers\ModelTransformer',
     ],
 
     /*
@@ -46,11 +46,11 @@ return [
     */
 
     'displayers' => [
-        'GrahamCampbell\Exceptions\Displayers\DebugDisplayer',
-        'GrahamCampbell\Exceptions\Displayers\ViewDisplayer',
-        'GrahamCampbell\Exceptions\Displayers\HtmlDisplayer',
-        'GrahamCampbell\Exceptions\Displayers\JsonDisplayer',
-        'GrahamCampbell\Exceptions\Displayers\JsonApiDisplayer',
+        'CristianVuolo\Exceptions\Displayers\DebugDisplayer',
+        'CristianVuolo\Exceptions\Displayers\ViewDisplayer',
+        'CristianVuolo\Exceptions\Displayers\HtmlDisplayer',
+        'CristianVuolo\Exceptions\Displayers\JsonDisplayer',
+        'CristianVuolo\Exceptions\Displayers\JsonApiDisplayer',
     ],
 
     /*
@@ -67,9 +67,9 @@ return [
     */
 
     'filters' => [
-        'GrahamCampbell\Exceptions\Filters\VerboseFilter',
-        'GrahamCampbell\Exceptions\Filters\CanDisplayFilter',
-        'GrahamCampbell\Exceptions\Filters\ContentTypeFilter',
+        'CristianVuolo\Exceptions\Filters\VerboseFilter',
+        'CristianVuolo\Exceptions\Filters\CanDisplayFilter',
+        'CristianVuolo\Exceptions\Filters\ContentTypeFilter',
     ],
 
     /*
@@ -84,7 +84,7 @@ return [
     |
     */
 
-    'default' => 'GrahamCampbell\Exceptions\Displayers\HtmlDisplayer',
+    'default' => 'CristianVuolo\Exceptions\Displayers\HtmlDisplayer',
 
     /*
     |--------------------------------------------------------------------------

@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Exceptions;
+namespace CristianVuolo\Tests\Exceptions;
 
 use Exception;
-use GrahamCampbell\Exceptions\Displayers\HtmlDisplayer;
-use GrahamCampbell\Exceptions\ExceptionHandler;
-use GrahamCampbell\Exceptions\ExceptionIdentifier;
-use GrahamCampbell\Exceptions\ExceptionInfo;
-use GrahamCampbell\Exceptions\NewExceptionHandler;
+use CristianVuolo\Exceptions\Displayers\HtmlDisplayer;
+use CristianVuolo\Exceptions\ExceptionHandler;
+use CristianVuolo\Exceptions\ExceptionIdentifier;
+use CristianVuolo\Exceptions\ExceptionInfo;
+use CristianVuolo\Exceptions\NewExceptionHandler;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Database\Eloquent\ModelNotFoundException;

@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Exceptions\Transformers;
+namespace CristianVuolo\Tests\Exceptions\Transformers;
 
-use GrahamCampbell\Exceptions\Transformers\ModelTransformer;
-use GrahamCampbell\TestBench\AbstractTestCase;
+use CristianVuolo\Exceptions\Transformers\ModelTransformer;
+use CristianVuolo\TestBench\AbstractTestCase;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use InvalidArgumentException;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;

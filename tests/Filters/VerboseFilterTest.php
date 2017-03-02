@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Exceptions\Filters;
+namespace CristianVuolo\Tests\Exceptions\Filters;
 
 use Exception;
-use GrahamCampbell\Exceptions\Displayers\DebugDisplayer;
-use GrahamCampbell\Exceptions\Displayers\HtmlDisplayer;
-use GrahamCampbell\Exceptions\Displayers\JsonDisplayer;
-use GrahamCampbell\Exceptions\ExceptionInfo;
-use GrahamCampbell\Exceptions\Filters\VerboseFilter;
-use GrahamCampbell\TestBench\AbstractTestCase;
+use CristianVuolo\Exceptions\Displayers\DebugDisplayer;
+use CristianVuolo\Exceptions\Displayers\HtmlDisplayer;
+use CristianVuolo\Exceptions\Displayers\JsonDisplayer;
+use CristianVuolo\Exceptions\ExceptionInfo;
+use CristianVuolo\Exceptions\Filters\VerboseFilter;
+use CristianVuolo\TestBench\AbstractTestCase;
 use Illuminate\Http\Request;
 use Mockery;
 

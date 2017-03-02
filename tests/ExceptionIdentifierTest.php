@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Exceptions;
+namespace CristianVuolo\Tests\Exceptions;
 
 use Exception;
-use GrahamCampbell\Exceptions\ExceptionIdentifier;
+use CristianVuolo\Exceptions\ExceptionIdentifier;
 
 /**
  * This is the exception identifier test class.

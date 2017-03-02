@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Exceptions\Displayers;
+namespace CristianVuolo\Tests\Exceptions\Displayers;
 
 use Exception;
-use GrahamCampbell\Exceptions\Displayers\DebugDisplayer;
-use GrahamCampbell\TestBench\AbstractTestCase;
+use CristianVuolo\Exceptions\Displayers\DebugDisplayer;
+use CristianVuolo\TestBench\AbstractTestCase;
 
 /**
  * This is the debug displayer test class.

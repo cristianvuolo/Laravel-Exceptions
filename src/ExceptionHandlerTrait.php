@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Exceptions;
+namespace CristianVuolo\Exceptions;
 
 use Exception;
 use Illuminate\Http\RedirectResponse;
@@ -178,7 +178,7 @@ trait ExceptionHandlerTrait
      * @param \Exception               $transformed
      * @param int                      $code
      *
-     * @return \GrahamCampbell\Exceptions\Displayers\DisplayerInterface
+     * @return \CristianVuolo\Exceptions\Displayers\DisplayerInterface
      */
     protected function getDisplayer(Request $request, Exception $original, Exception $transformed, $code)
     {
@@ -194,13 +194,13 @@ trait ExceptionHandlerTrait
     /**
      * Get the filtered list of displayers.
      *
-     * @param \GrahamCampbell\Exceptions\Displayers\DisplayerInterface[] $displayers
+     * @param \CristianVuolo\Exceptions\Displayers\DisplayerInterface[] $displayers
      * @param \Illuminate\Http\Request                                   $request
      * @param \Exception                                                 $original
      * @param \Exception                                                 $transformed
      * @param int                                                        $code
      *
-     * @return \GrahamCampbell\Exceptions\Displayers\DisplayerInterface[]
+     * @return \CristianVuolo\Exceptions\Displayers\DisplayerInterface[]
      */
     protected function getFiltered(array $displayers, Request $request, Exception $original, Exception $transformed, $code)
     {

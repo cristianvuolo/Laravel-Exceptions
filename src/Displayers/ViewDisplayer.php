@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Exceptions\Displayers;
+namespace CristianVuolo\Exceptions\Displayers;
 
 use Exception;
-use GrahamCampbell\Exceptions\ExceptionInfo;
+use CristianVuolo\Exceptions\ExceptionInfo;
 use Illuminate\Contracts\View\Factory;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -26,7 +26,7 @@ class ViewDisplayer implements DisplayerInterface
     /**
      * The exception info instance.
      *
-     * @var \GrahamCampbell\Exceptions\ExceptionInfo
+     * @var \CristianVuolo\Exceptions\ExceptionInfo
      */
     protected $info;
 
@@ -40,7 +40,7 @@ class ViewDisplayer implements DisplayerInterface
     /**
      * Create a new view displayer instance.
      *
-     * @param \GrahamCampbell\Exceptions\ExceptionInfo $info
+     * @param \CristianVuolo\Exceptions\ExceptionInfo $info
      * @param \Illuminate\Contracts\View\Factory       $factory
      *
      * @return void

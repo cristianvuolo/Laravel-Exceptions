@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Exceptions;
+namespace CristianVuolo\Exceptions;
 
-use GrahamCampbell\Exceptions\Displayers\HtmlDisplayer;
-use GrahamCampbell\Exceptions\Filters\VerboseFilter;
+use CristianVuolo\Exceptions\Displayers\HtmlDisplayer;
+use CristianVuolo\Exceptions\Filters\VerboseFilter;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Routing\UrlGenerator as LaravelGenerator;
 use Illuminate\Foundation\Application as LaravelApplication;

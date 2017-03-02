@@ -1,17 +1,17 @@
 Laravel Exceptions
 ==================
 
-Laravel Exceptions was created by, and is maintained by [Graham Campbell](https://github.com/GrahamCampbell), and provides a powerful error response system for both development and production for [Laravel 5](http://laravel.com). It optionally utilises the [Whoops](https://github.com/filp/whoops) package for the development error pages. Feel free to check out the [change log](CHANGELOG.md), [releases](https://github.com/GrahamCampbell/Laravel-Exceptions/releases), [license](LICENSE), and [contribution guidelines](CONTRIBUTING.md).
+Laravel Exceptions was created by, and is maintained by [Graham Campbell](https://github.com/CristianVuolo), and provides a powerful error response system for both development and production for [Laravel 5](http://laravel.com). It optionally utilises the [Whoops](https://github.com/filp/whoops) package for the development error pages. Feel free to check out the [change log](CHANGELOG.md), [releases](https://github.com/CristianVuolo/Laravel-Exceptions/releases), [license](LICENSE), and [contribution guidelines](CONTRIBUTING.md).
 
 ![Laravel Exceptions](https://cloud.githubusercontent.com/assets/2829600/5115020/8da9e70a-7035-11e4-9d28-080b4ba55ed9.PNG)
 
 <p align="center">
 <a href="https://styleci.io/repos/26882182"><img src="https://styleci.io/repos/26882182/shield" alt="StyleCI Status"></img></a>
-<a href="https://travis-ci.org/GrahamCampbell/Laravel-Exceptions"><img src="https://img.shields.io/travis/GrahamCampbell/Laravel-Exceptions/master.svg?style=flat-square" alt="Build Status"></img></a>
-<a href="https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Exceptions/code-structure"><img src="https://img.shields.io/scrutinizer/coverage/g/GrahamCampbell/Laravel-Exceptions.svg?style=flat-square" alt="Coverage Status"></img></a>
-<a href="https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Exceptions"><img src="https://img.shields.io/scrutinizer/g/GrahamCampbell/Laravel-Exceptions.svg?style=flat-square" alt="Quality Score"></img></a>
+<a href="https://travis-ci.org/CristianVuolo/Laravel-Exceptions"><img src="https://img.shields.io/travis/CristianVuolo/Laravel-Exceptions/master.svg?style=flat-square" alt="Build Status"></img></a>
+<a href="https://scrutinizer-ci.com/g/CristianVuolo/Laravel-Exceptions/code-structure"><img src="https://img.shields.io/scrutinizer/coverage/g/CristianVuolo/Laravel-Exceptions.svg?style=flat-square" alt="Coverage Status"></img></a>
+<a href="https://scrutinizer-ci.com/g/CristianVuolo/Laravel-Exceptions"><img src="https://img.shields.io/scrutinizer/g/CristianVuolo/Laravel-Exceptions.svg?style=flat-square" alt="Quality Score"></img></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="Software License"></img></a>
-<a href="https://github.com/GrahamCampbell/Laravel-Exceptions/releases"><img src="https://img.shields.io/github/release/GrahamCampbell/Laravel-Exceptions.svg?style=flat-square" alt="Latest Version"></img></a>
+<a href="https://github.com/CristianVuolo/Laravel-Exceptions/releases"><img src="https://img.shields.io/github/release/CristianVuolo/Laravel-Exceptions.svg?style=flat-square" alt="Latest Version"></img></a>
 </p>
 
 
@@ -45,9 +45,9 @@ We support both Whoops `^1.1` or `^2.0`, so feel free to use either.
 
 Once Laravel Exceptions is installed, you need to register the service provider. Open up `config/app.php` and add the following to the `providers` key.
 
-* `'GrahamCampbell\Exceptions\ExceptionsServiceProvider'`
+* `'CristianVuolo\Exceptions\ExceptionsServiceProvider'`
 
-You then MUST change your `App\Exceptions\Handler` class to extend `GrahamCampbell\Exceptions\NewExceptionHandler` for Laravel 5.3 or `GrahamCampbell\Exceptions\ExceptionHandler` for Laravel 5.1/5.2, rather than extending `Illuminate\Foundation\Exceptions\Handler`, or if you're using Lumen, you're going to want to extend `GrahamCampbell\Exceptions\LumenExceptionHandler`.
+You then MUST change your `App\Exceptions\Handler` class to extend `CristianVuolo\Exceptions\NewExceptionHandler` for Laravel 5.3 or `CristianVuolo\Exceptions\ExceptionHandler` for Laravel 5.1/5.2, rather than extending `Illuminate\Foundation\Exceptions\Handler`, or if you're using Lumen, you're going to want to extend `CristianVuolo\Exceptions\LumenExceptionHandler`.
 
 
 ## Configuration

@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Exceptions\Displayers;
+namespace CristianVuolo\Exceptions\Displayers;
 
 use Exception;
-use GrahamCampbell\Exceptions\ExceptionInfo;
+use CristianVuolo\Exceptions\ExceptionInfo;
 use Symfony\Component\HttpFoundation\JsonResponse;
 
 /**
@@ -25,14 +25,14 @@ class JsonDisplayer implements DisplayerInterface
     /**
      * The exception info instance.
      *
-     * @var \GrahamCampbell\Exceptions\ExceptionInfo
+     * @var \CristianVuolo\Exceptions\ExceptionInfo
      */
     protected $info;
 
     /**
      * Create a new json displayer instance.
      *
-     * @param \GrahamCampbell\Exceptions\ExceptionInfo $info
+     * @param \CristianVuolo\Exceptions\ExceptionInfo $info
      *
      * @return void
      */

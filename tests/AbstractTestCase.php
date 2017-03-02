@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Exceptions;
+namespace CristianVuolo\Tests\Exceptions;
 
-use GrahamCampbell\Exceptions\ExceptionsServiceProvider;
-use GrahamCampbell\TestBench\AbstractPackageTestCase;
+use CristianVuolo\Exceptions\ExceptionsServiceProvider;
+use CristianVuolo\TestBench\AbstractPackageTestCase;
 
 /**
  * This is the abstract test case class.

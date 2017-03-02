@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Exceptions\Displayers;
+namespace CristianVuolo\Exceptions\Displayers;
 
 use Exception;
-use GrahamCampbell\Exceptions\ExceptionInfo;
+use CristianVuolo\Exceptions\ExceptionInfo;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
@@ -25,7 +25,7 @@ class HtmlDisplayer implements DisplayerInterface
     /**
      * The exception info instance.
      *
-     * @var \GrahamCampbell\Exceptions\ExceptionInfo
+     * @var \CristianVuolo\Exceptions\ExceptionInfo
      */
     protected $info;
 
@@ -46,7 +46,7 @@ class HtmlDisplayer implements DisplayerInterface
     /**
      * Create a new html displayer instance.
      *
-     * @param \GrahamCampbell\Exceptions\ExceptionInfo $info
+     * @param \CristianVuolo\Exceptions\ExceptionInfo $info
      * @param callable                                 $assets
      * @param string                                   $path
      *

@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Exceptions\Transformers;
+namespace CristianVuolo\Tests\Exceptions\Transformers;
 
-use GrahamCampbell\Exceptions\Transformers\CsrfTransformer;
-use GrahamCampbell\TestBench\AbstractTestCase;
+use CristianVuolo\Exceptions\Transformers\CsrfTransformer;
+use CristianVuolo\TestBench\AbstractTestCase;
 use Illuminate\Session\TokenMismatchException;
 use InvalidArgumentException;
 use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;

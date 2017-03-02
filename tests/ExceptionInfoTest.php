@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Exceptions;
+namespace CristianVuolo\Tests\Exceptions;
 
 use Exception;
-use GrahamCampbell\Exceptions\ExceptionInfo;
+use CristianVuolo\Exceptions\ExceptionInfo;
 use InvalidArgumentException;
 use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
 use Symfony\Component\HttpKernel\Exception\PreconditionFailedHttpException;

@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Exceptions\Filters;
+namespace CristianVuolo\Tests\Exceptions\Filters;
 
 use Exception;
-use GrahamCampbell\Exceptions\Displayers\HtmlDisplayer;
-use GrahamCampbell\Exceptions\Displayers\JsonDisplayer;
-use GrahamCampbell\Exceptions\Filters\CanDisplayFilter;
-use GrahamCampbell\TestBench\AbstractTestCase;
+use CristianVuolo\Exceptions\Displayers\HtmlDisplayer;
+use CristianVuolo\Exceptions\Displayers\JsonDisplayer;
+use CristianVuolo\Exceptions\Filters\CanDisplayFilter;
+use CristianVuolo\TestBench\AbstractTestCase;
 use Illuminate\Http\Request;
 use Mockery;
 

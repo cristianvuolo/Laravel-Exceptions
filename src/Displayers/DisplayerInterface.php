@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Exceptions\Displayers;
+namespace CristianVuolo\Exceptions\Displayers;
 
 use Exception;
 

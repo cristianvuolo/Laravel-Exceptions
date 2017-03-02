@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Exceptions\Displayers;
+namespace CristianVuolo\Tests\Exceptions\Displayers;
 
-use GrahamCampbell\Exceptions\Displayers\JsonDisplayer;
-use GrahamCampbell\Exceptions\ExceptionInfo;
-use GrahamCampbell\TestBench\AbstractTestCase;
+use CristianVuolo\Exceptions\Displayers\JsonDisplayer;
+use CristianVuolo\Exceptions\ExceptionInfo;
+use CristianVuolo\TestBench\AbstractTestCase;
 use InvalidArgumentException;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Exceptions\Transformers;
+namespace CristianVuolo\Exceptions\Transformers;
 
 use Exception;
 

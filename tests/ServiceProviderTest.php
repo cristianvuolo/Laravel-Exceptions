@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Exceptions;
+namespace CristianVuolo\Tests\Exceptions;
 
-use GrahamCampbell\Exceptions\Displayers\DebugDisplayer;
-use GrahamCampbell\Exceptions\Displayers\HtmlDisplayer;
-use GrahamCampbell\Exceptions\Displayers\JsonApiDisplayer;
-use GrahamCampbell\Exceptions\Displayers\JsonDisplayer;
-use GrahamCampbell\Exceptions\ExceptionHandler;
-use GrahamCampbell\Exceptions\Filters\CanDisplayFilter;
-use GrahamCampbell\Exceptions\Filters\ContentTypeFilter;
-use GrahamCampbell\Exceptions\Filters\VerboseFilter;
-use GrahamCampbell\Exceptions\NewExceptionHandler;
-use GrahamCampbell\TestBenchCore\ServiceProviderTrait;
+use CristianVuolo\Exceptions\Displayers\DebugDisplayer;
+use CristianVuolo\Exceptions\Displayers\HtmlDisplayer;
+use CristianVuolo\Exceptions\Displayers\JsonApiDisplayer;
+use CristianVuolo\Exceptions\Displayers\JsonDisplayer;
+use CristianVuolo\Exceptions\ExceptionHandler;
+use CristianVuolo\Exceptions\Filters\CanDisplayFilter;
+use CristianVuolo\Exceptions\Filters\ContentTypeFilter;
+use CristianVuolo\Exceptions\Filters\VerboseFilter;
+use CristianVuolo\Exceptions\NewExceptionHandler;
+use CristianVuolo\TestBenchCore\ServiceProviderTrait;
 
 /**
  * This is the service provider test class.
@@ -90,7 +90,7 @@ class ServiceProviderTest extends AbstractTestCase
         $this->assertCount(5, $displayers);
 
         foreach ($displayers as $displayer) {
-            $this->assertTrue(starts_with($displayer, 'GrahamCampbell\Exceptions\Displayers'));
+            $this->assertTrue(starts_with($displayer, 'CristianVuolo\Exceptions\Displayers'));
         }
     }
 
@@ -102,7 +102,7 @@ class ServiceProviderTest extends AbstractTestCase
         $this->assertCount(3, $filters);
 
         foreach ($filters as $filter) {
-            $this->assertTrue(starts_with($filter, 'GrahamCampbell\Exceptions\Filters'));
+            $this->assertTrue(starts_with($filter, 'CristianVuolo\Exceptions\Filters'));
         }
     }
 }

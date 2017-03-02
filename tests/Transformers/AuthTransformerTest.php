@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Exceptions\Transformers;
+namespace CristianVuolo\Tests\Exceptions\Transformers;
 
-use GrahamCampbell\Exceptions\Transformers\AuthTransformer;
-use GrahamCampbell\TestBench\AbstractTestCase;
+use CristianVuolo\Exceptions\Transformers\AuthTransformer;
+use CristianVuolo\TestBench\AbstractTestCase;
 use Illuminate\Auth\Access\AuthorizationException;
 use InvalidArgumentException;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;

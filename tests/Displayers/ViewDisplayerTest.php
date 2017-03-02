@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Exceptions\Displayers;
+namespace CristianVuolo\Tests\Exceptions\Displayers;
 
 use Exception;
-use GrahamCampbell\Exceptions\Displayers\ViewDisplayer;
-use GrahamCampbell\Exceptions\ExceptionInfo;
-use GrahamCampbell\Tests\Exceptions\AbstractTestCase;
+use CristianVuolo\Exceptions\Displayers\ViewDisplayer;
+use CristianVuolo\Exceptions\ExceptionInfo;
+use CristianVuolo\Tests\Exceptions\AbstractTestCase;
 use Illuminate\Contracts\View\Factory;
 use Mockery;
 use Symfony\Component\HttpKernel\Exception\HttpException;
