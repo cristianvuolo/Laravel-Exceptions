@@ -7,6 +7,10 @@
         {
             "name": "Graham Campbell",
             "email": "graham@alt-three.com"
+        },
+        {
+            "name": "Cristian Vuolo",
+            "email": "cristianvuolo@gmail.com"
         }
     ],
     "require": {
@@ -29,13 +33,13 @@
     },
     "autoload": {
         "psr-4": {
-            "GrahamCampbell\\Exceptions\\": "src/"
+            "CristianVuolo\\Exceptions\\": "src/"
         }
     },
     "autoload-dev": {
         "classmap": ["tests/stubs/"],
         "psr-4": {
-            "GrahamCampbell\\Tests\\Exceptions\\": "tests/"
+            "CristianVuolo\\Tests\\Exceptions\\": "tests/"
         }
     },
     "config": {
